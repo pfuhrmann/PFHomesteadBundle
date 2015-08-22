@@ -1,0 +1,3 @@
+pf_homestead_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: PFHomesteadBundle:Default:index }
