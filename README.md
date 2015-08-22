@@ -1,2 +1,2 @@
-# homestead-bundle
-Bundle for using Laravel Homstead within your Symfony project
+# PFHomesteadBundle
+Bundle for using Laravel Homestead within your Symfony project
