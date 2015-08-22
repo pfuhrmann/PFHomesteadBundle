@@ -1,0 +1,24 @@
+{
+  "name": "pfuhrmann/homestead-bundle",
+  "type": "symfony-bundle",
+  "description": "Integrate Laravel Homestead VM seamlessly with your Symfony Apps",
+  "keywords": ["Virtual Machine"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Patrik Fuhrmann",
+      "email": "fuhrmann.patrik@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "symfony/framework-bundle": "~2.3",
+    "laravel/homestead": "^2.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable"
+  },
+  "autoload": {
+    "psr-4": { "PF\\HomesteadBundle\\": "" }
+  }
+}
