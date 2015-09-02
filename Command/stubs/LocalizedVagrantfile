@@ -1,7 +1,7 @@
 require 'yaml'
 
-VAGRANTFILE_API_VERSION = "2"
-confDir = $confDir ||= File.expand_path("vendor/laravel/homestead")
+VAGRANTFILE_API_VERSION ||= "2"
+confDir = $confDir ||= File.expand_path("vendor/laravel/homestead", File.dirname(__FILE__))
 
 vendorPath = "vendor/pfuhrmann/homestead-bundle";
 homesteadYamlPath = vendorPath + "/Homestead.yaml"
